@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+       <item
+           android:icon="@drawable/retour"
+           android:title="Retour"
+           android:orderInCategory="100"
+           app:showAsAction="ifRoom"/>
+<!--    <item-->
+<!--        android:id="@+id/catfruit"-->
+<!--        android:orderInCategory="100"-->
+
+<!--        android:title="Fruits"-->
+<!--       />-->
+<!--    <item-->
+<!--        android:id="@+id/catlegume"-->
+<!--        android:orderInCategory="100"-->
+
+<!--        android:title="Legumes"/>-->
+<!--    <item-->
+<!--        android:id="@+id/catviande"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="Viande"/>-->
+<!--    <item-->
+<!--        android:id="@+id/catjus"-->
+<!--        android:orderInCategory="100"-->
+
+<!--        android:title="Jus"/>-->
+
+
+
+</menu>

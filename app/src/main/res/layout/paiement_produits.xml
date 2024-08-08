@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/idPimg"
+            android:layout_width="400px"
+            android:layout_height="match_parent"
+            android:src="@drawable/panier"></ImageView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtQte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="item_quantite"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_margin="5dp" />
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <Button
+                   android:id="@+id/idBtnAugmenterQ"
+                   android:layout_width="60dp"
+                   android:layout_height="59dp"
+                   android:layout_marginTop="12dp"
+                   android:text="-"
+                   android:textSize="30dp"/>
+
+               <Button
+                   android:id="@+id/idBtnReduireQ"
+                   android:layout_width="60dp"
+                   android:layout_height="59dp"
+                   android:layout_marginTop="12dp"
+                   android:text="+"
+                   android:textSize="30dp"/>
+           </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$"
+            android:textSize="60dp"
+            android:paddingTop="19dp"
+            android:layout_margin="5dp" />
+        <Button
+            android:id="@+id/idSupprimer"
+            android:layout_width="60dp"
+            android:layout_height="59dp"
+            android:layout_marginBottom="10dp"
+            android:text="X"
+            android:textSize="30dp"/>
+    </LinearLayout>
+</android.widget.RelativeLayout>
